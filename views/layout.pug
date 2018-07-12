@@ -3,5 +3,12 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    block stylesheets
+
   body
-    block content
+    div(ng-app="badchat", ng-cloak)
+      block content
+    
+    block javascripts
+      script(src="/angular/angular.min.js")
+      script(src="/javascripts/main.js")

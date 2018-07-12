@@ -1,0 +1,19 @@
+{
+  "name": "bad-chat-redis-socket-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Burak Tahtacıoğlu <clubwomanizer588@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs",
+    "redis"
+  ],
+  "homepage": "https://github.com/BTDevelop/bad-chat-redis-socket-app",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
